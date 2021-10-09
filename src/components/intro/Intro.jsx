@@ -1,5 +1,5 @@
 import "./Intro.css"
-import Me from "../../img/me.jpg"
+import Me from "../../img/me.png"
 
 const Intro = () => {
     return (

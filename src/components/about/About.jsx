@@ -32,7 +32,7 @@ const About = () => {
                 <img src={Web2} alt="" className="a-award-img" />
                 <img src={Web4} alt="" className="a-award-img" />
                 <div className="a-award-texts">
-                    <h4 className="a-award-title">Developer</h4>
+                    <h4 className="a-award-title">Developer Front End</h4>
                 </div>
             </div>
         </div>

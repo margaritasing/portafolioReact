@@ -72,6 +72,7 @@
     object-fit: contain;
     position: absolute;
     border-radius: 50%;
+    margin-top: 30px;
 }
 
 .i-bg {
