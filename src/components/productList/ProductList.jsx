@@ -1,6 +1,6 @@
 import "./ProductList.css"
 import Product from "../product/Product"
-import {product, products} from "../../data"
+import {products} from "../../data"
 
 const ProductList = () => {
     return (

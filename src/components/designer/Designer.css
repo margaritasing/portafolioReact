@@ -1,0 +1,33 @@
+.d {
+    width: 100%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.d-browser {
+    height: 20px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+}
+
+.d-cicle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: #fff;
+}
+
+.d-img {
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+
+.d:hover .d-img {
+    transform: scale(1.5);
+}

@@ -1,0 +1,28 @@
+.dl {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.dl-texts {
+    width: 65%;
+}
+
+.dl-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.dl-desc {
+    margin: 20px 0px;
+}
+
+.dl-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
