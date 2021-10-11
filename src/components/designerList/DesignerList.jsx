@@ -13,8 +13,8 @@ const DesignerList = () => {
             </p>
         </div>
         <div className="dl-list">
-            {designers.map((item) =>(
-                 <Designer Key={item.id} image={item.image} url={item.url}/>
+            {designers.map((todo, index) =>(
+                 <Designer Key={index} image={todo.image} url={todo.url}/>
             ))}               
         </div>
     </div>

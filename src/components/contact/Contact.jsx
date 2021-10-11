@@ -2,12 +2,16 @@ import "./contact.css"
 import Whatsapp from "../../img/whatsapp.png"
 import Email from "../../img/email.png"
 import Adress from "../../img/ubicacion.png"
-import { useRef, useState } from "react"
+import { useContext, useRef, useState } from "react"
 import emailjs from 'emailjs-com';
+import { ThemeContext } from "../../context"
 
 const Contact = () => {
     const formRef = useRef();
     const [done, setDone] = useState(false)
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode;
+
 
     const handleSubmit = (e) =>{
         e.preventDefault();
@@ -47,10 +51,10 @@ const Contact = () => {
                         Si quieres saber mas de mi escribeme..!.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" name="user_name" id="user_name" placeholder="Nombre" />
-                        <input type="text" name="user_subject" id="user_subject" placeholder="Asunto" />
-                        <input type="email" name="user_email" id="user_email" placeholder="Correo" />
-                        <textarea name="message" id="message"  rows="5" placeholder="Mensaje"></textarea>
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" name="user_name" id="user_name" placeholder="Nombre" />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="text" name="user_subject" id="user_subject" placeholder="Asunto" />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type="email" name="user_email" id="user_email" placeholder="Correo" />
+                        <textarea style={{ backgroundColor: darkMode && "#333" }} name="message" id="message"  rows="5" placeholder="Mensaje"></textarea>
                         <button>Enviar</button>
                         {done &&  "Gracias Por Tu Mensaje"}
                     </form>
