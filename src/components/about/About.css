@@ -82,4 +82,14 @@
     .a-left {
         width: 100%;
     }
+    .a-card {
+        height: 30vh;
+    }
+    .a-card.bg,
+    .a-award {
+        display: none;
+    }
+    .a-right {
+        padding: 20px;
+    }
 }

@@ -32,6 +32,13 @@
     transform: scale(1.5);
 }
 
+@media screen and (max-width:480px) {
+    .p {
+        width: 40%;
+        height: 20vh;
+    }
+}
+
 
 /* .p:hover .p-img {
     transform: translateY(-100%);

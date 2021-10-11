@@ -1,11 +1,13 @@
 import About from "./components/about/About";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
-import DesignerList from "./components/designerList/DesignerList"
+
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import { useContext } from "react";
+import Footer from "./components/footer/Footer";
+
 
 
 
@@ -18,9 +20,8 @@ const App = () => {
         <Intro/>
         <About/>
         <ProductList/>
-        <DesignerList/>
         <Contact/>
-      
+        <Footer/>        
         </div>
 
 
