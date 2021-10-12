@@ -36,4 +36,8 @@
     .pl-desc {
         display: none;
     }
+    .pl-title {
+        font-size: 40px;
+        font-weight: 400;
+    }
 }

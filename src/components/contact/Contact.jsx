@@ -1,7 +1,7 @@
 import "./contact.css"
-import Whatsapp from "../../img/whatsapp.png"
 import Email from "../../img/email.png"
 import Adress from "../../img/ubicacion.png"
+
 import { useContext, useRef, useState } from "react"
 import emailjs from 'emailjs-com';
 import { ThemeContext } from "../../context"
@@ -32,11 +32,7 @@ const Contact = () => {
                 <div className="c-left">
                     <h1 className="c-title">Contactos</h1>
                     <div className="c-info">
-                       <div className="c-info-item">
-                           <img src={Whatsapp} alt="" className="c-icon"/>
-                           +54 011-47856932
-                       </div>
-                       <div className="c-info-item">
+                      <div className="c-info-item">
                            <img src={Email} alt="" className="c-icon"/>
                            libiamfreitesm@gmail.com
                        </div>
@@ -48,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        Si quieres saber mas de mi escribeme..!.
+                        Si quieres comunicarte conmigo, puedes escribirme aqui..!.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{ backgroundColor: darkMode && "#333" }} type="text" name="user_name" id="user_name" placeholder="Nombre" />

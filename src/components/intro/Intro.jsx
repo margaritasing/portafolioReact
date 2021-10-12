@@ -6,7 +6,7 @@ const Intro = () => {
         <div className="i">
             <div className="i-left">
                 <div className="i-left-wrapper">
-                    <h2 className="i-intro">Hello, My name is</h2>
+                    <h2 className="i-intro">Hola, mi nombre es: </h2>
                     <h1 className="i-name">LiBia Freites</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
@@ -17,7 +17,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                    I back and front developer, passionate about code, I like to design with Adobe Illustrator
+                    Apasionada del Backend, indagadora del Frontend, entusiasta de las IT, pero sobre todo, aprendiz constantes y determinada...
                     </p>
                 </div>
               

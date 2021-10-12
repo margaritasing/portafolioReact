@@ -92,4 +92,15 @@
     .a-right {
         padding: 20px;
     }
+    .a-sub {
+        margin: 0px;
+        font-size: 13px;
+    }
+    .a-desc {
+        font-size: 13px;
+    }
+    .a-title {
+        font-weight: 400;
+        margin-top: 10px;
+    }
 }

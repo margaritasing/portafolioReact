@@ -38,11 +38,6 @@ export const products = [{
         img: "https://firebasestorage.googleapis.com/v0/b/portafoliolibiamfreitesm.appspot.com/o/imagenes_portafolio%2Fweb6.png?alt=media&token=89622515-604b-462b-ac01-b7098ce8d684",
         link: "https://eager-boyd-316f86.netlify.app/",
     },
-    {
-        id: 9,
-        img: "https://firebasestorage.googleapis.com/v0/b/portafoliolibiamfreitesm.appspot.com/o/imagenes_iconos%2Fgithub.png?alt=media&token=22dfc708-8bd2-40cd-98d4-322cbb9ef5ec",
-        link: "https://github.com/margaritasing",
-    },
 
 
 

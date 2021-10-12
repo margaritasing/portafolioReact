@@ -7,3 +7,9 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+@media screen and (max-width: 480px) {
+    .f {
+        width: 100%;
+    }
+}

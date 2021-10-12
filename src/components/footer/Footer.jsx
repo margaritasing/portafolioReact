@@ -6,8 +6,7 @@ const Footer = () => {
             <p>
                © Libia M Freites M-2021
             </p>
-            
-          
+                      
         </div>
     )
 }
